@@ -58,28 +58,29 @@
       ]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Flights Endpoint",
       "pages": [
         "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/create"
+      ]
+    },
+    {
+      "group": "Airways Bills Endpoint",
+      "pages": [
+        "api-reference/airway-bills/get",
+        "api-reference/airway-bills/create"
+      ]
+    },
+    {
+      "group": "Reports Endpoint",
+      "pages": [
+        "api-reference/reports/get"
       ]
     }
   ],
