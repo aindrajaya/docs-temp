@@ -64,23 +64,42 @@
       ]
     },
     {
-      "group": "Flights Endpoint",
+      "group": "Availability",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create"
+        "api-reference/availability/create"
       ]
     },
     {
-      "group": "Airways Bills Endpoint",
+      "group": "Booking",
       "pages": [
-        "api-reference/airway-bills/get",
-        "api-reference/airway-bills/create"
+        "api-reference/booking/create",
+        "api-reference/booking/delete"
       ]
     },
     {
-      "group": "Reports Endpoint",
+      "group": "Service",
       "pages": [
-        "api-reference/reports/get"
+        "api-reference/status/get"
+      ]
+    },
+    {
+      "group": "Flight Schedules",
+      "pages": [
+        "api-reference/flight-schedules/daily",
+        "api-reference/flight-schedules/weekly"
+      ]
+    },
+    {
+      "group": "Shipments",
+      "pages": [
+        "api-reference/shipment/fwb-capture",
+        "api-reference/shipment/track"
+      ]
+    },
+    {
+      "group": "Stock",
+      "pages": [
+        "api-reference/stock/create"
       ]
     }
   ],
