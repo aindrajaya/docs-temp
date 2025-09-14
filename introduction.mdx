@@ -38,26 +38,23 @@ This API provides endpoints to retrieve and create flight information, manage ai
 ## API Sections
 
 <CardGroup cols={3}>
-  <Card
-    title="Flights"
-    icon="plane"
-    href="/api-reference/endpoint/get"
-  >
-    Manage flight schedules, routes, and cargo capacity
+  <Card title="Availability" icon="searchengin" href="/api-reference/availability/create">
+    Search availability and rates
   </Card>
-  <Card
-    title="Airway Bills"
-    icon="file-invoice"
-    href="/api-reference/airway-bills/get"
-  >
-    Create and retrieve airway bills for cargo shipments
+  <Card title="Booking" icon="book-open" href="/api-reference/booking/create">
+    Create and cancel bookings
   </Card>
-  <Card
-    title="Reports"
-    icon="chart-line"
-    href="/api-reference/reports/get"
-  >
-    Generate operational reports with detailed analytics
+  <Card title="Status" icon="chart-simple" href="/api-reference/status/get">
+    Service health and metadata
+  </Card>
+  <Card title="Flight Schedules" icon="calendar-days" href="/api-reference/flight-schedules/daily">
+    Daily and weekly flight schedules
+  </Card>
+  <Card title="Shipments" icon="truck" href="/api-reference/shipment/fwb-capture">
+    Shipment capture and tracking
+  </Card>
+  <Card title="Stock" icon="boxes-stacked" href="/api-reference/stock/create">
+    Stock availability
   </Card>
 </CardGroup>
 
